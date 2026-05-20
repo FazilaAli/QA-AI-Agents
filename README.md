@@ -1,4 +1,10 @@
 # QA AI Agents Showcase
+![GitHub stars](https://img.shields.io/github/stars/FazilaAli/QA-AI-Agents?style=social)
+
+![OpenAI](https://img.shields.io/badge/OpenAI-GPT-green)
+![Playwright](https://img.shields.io/badge/Playwright-Automation-brightgreen)
+![n8n](https://img.shields.io/badge/n8n-Workflow-orange)
+![Electron](https://img.shields.io/badge/Electron-DesktopApp-blue)
 
 AI-powered QA automation agents for intelligent code generation, visual regression analysis, and automated bug reporting.
 
