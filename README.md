@@ -104,8 +104,9 @@ Jira Bug / Baseline Approval
 ### 📷 Showcase Assets
 
 ```text
-assets/ui-regression-report.png
-assets/ui-comparison.png
+assets/ui-regression-report-1.png
+assets/ui-regression-report-2.png
+assets/ui-regression-report-3.png
 assets/ui-workflow.png
 ```
 
@@ -161,8 +162,6 @@ Screenshot Upload
 
 ```text
 assets/automation-bug-flow.png
-assets/jira-bug-example.png
-assets/testrail-bug-status.png
 ```
 
 ---
