@@ -15,13 +15,13 @@ AI-powered QA automation agents for intelligent code generation, visual regressi
 
 ---
 
-# 🚀 Agents
+# Agents
 
 ## 1. CoderQA Agent
 
 AI-assisted automation code generation agent that converts Playwright recordings and DOM hints into structured Playwright Java automation code.
 
-### ✨ Features
+### Features
 
 - Generates Playwright Java sync API code
 - Creates Page Object methods
@@ -31,7 +31,7 @@ AI-assisted automation code generation agent that converts Playwright recordings
 - Preserves recorded execution order
 - Includes Electron desktop application for QA users
 
-### 🧠 Workflow
+### Workflow
 
 ```text
 Playwright Recording + DOM Hints / Metadata
@@ -43,7 +43,7 @@ Generated Java Page Object + Generated Testcase
 Generated Code in IDE
 ```
 
-### 🛠 Tech Stack
+### Tech Stack
 
 - OpenAI GPT
 - Playwright
@@ -51,7 +51,7 @@ Generated Code in IDE
 - Electron
 - n8n
 
-### 📷 Showcase Assets
+### Showcase Assets
 
 #### Electron Application
 
@@ -71,7 +71,7 @@ Generated Code in IDE
 
 AI-powered visual regression testing workflow that compares baseline screenshots against new screenshots and generates an interactive review report.
 
-### ✨ Features
+### Features
 
 - Baseline vs new screenshot comparison
 - Missing element detection
@@ -83,7 +83,7 @@ AI-powered visual regression testing workflow that compares baseline screenshots
 - Jira bug creation workflow
 - Baseline promotion workflow
 
-### 📊 Report Features
+### Report Features
 
 - Side-by-side screenshot comparison
 - Regression findings
@@ -93,7 +93,7 @@ AI-powered visual regression testing workflow that compares baseline screenshots
 - Fullscreen image viewer
 - Baseline approval action
 
-### 🧠 Workflow
+### Workflow
 
 ```text
 Baseline Screenshot + New Screenshot
@@ -107,7 +107,7 @@ Interactive HTML Report
 Jira Bug / Baseline Approval
 ```
 
-### 🛠 Tech Stack
+### Tech Stack
 
 - OpenAI Vision Models
 - Playwright
@@ -115,7 +115,7 @@ Jira Bug / Baseline Approval
 - Jira APIs
 - n8n
 
-### 📷 Showcase Assets
+### Showcase Assets
 
 #### Regression Report
 
@@ -135,7 +135,7 @@ Jira Bug / Baseline Approval
 
 Automated workflow that converts failed TestRail executions into Jira bug tickets.
 
-### ✨ Features
+### Features
 
 - Reads failed TestRail results
 - Extracts failure details
@@ -145,7 +145,7 @@ Automated workflow that converts failed TestRail executions into Jira bug ticket
 - Adds severity metadata
 - Reduces manual QA reporting effort
 
-### 📌 Extracted Information
+### Extracted Information
 
 - Failed step
 - Expected result
@@ -155,7 +155,7 @@ Automated workflow that converts failed TestRail executions into Jira bug ticket
 - Attachments
 - Historical comments
 
-### 🧠 Workflow
+### Workflow
 
 ```text
 Failed TestRail Execution
@@ -169,7 +169,7 @@ Jira Bug Creation
 Screenshot Upload
 ```
 
-### 🛠 Tech Stack
+### Tech Stack
 
 - TestRail APIs
 - Jira APIs
@@ -185,7 +185,7 @@ Screenshot Upload
 
 ---
 
-# 📂 Repository Structure
+# Repository Structure
 
 ```text
 qa-ai-agents-showcase/
@@ -210,7 +210,7 @@ qa-ai-agents-showcase/
 
 ---
 
-# 🏗 System Architecture
+# System Architecture
 
 ```text
 Playwright / TestRail / Screenshots
@@ -228,7 +228,7 @@ Code         Report       Jira Bug
 
 ---
 
-# ⚙️ Tech Stack
+# Tech Stack
 
 | Area | Tools |
 |---|---|
@@ -243,7 +243,7 @@ Code         Report       Jira Bug
 
 ---
 
-# 🔒 Security Notice
+# Security Notice
 
 This repository intentionally excludes:
 
@@ -260,7 +260,7 @@ All showcased assets should be sanitized before publishing.
 
 ---
 
-# 🎯 Purpose
+# Purpose
 
 This project demonstrates practical AI applications in QA automation including:
 
@@ -272,6 +272,6 @@ This project demonstrates practical AI applications in QA automation including:
 
 ---
 
-# 📄 License
+# License
 
 This repository is shared for portfolio and demonstration purposes only.
