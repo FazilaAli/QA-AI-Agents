@@ -53,11 +53,17 @@ Generated Code in IDE
 
 ### 📷 Showcase Assets
 
-```text
-assets/coderqa-electron-app.png
-assets/coderqa-generated-code.png
-assets/coderqa-workflow.png
-```
+#### Electron Application
+
+![CoderQA App](assets/coderqa-electron-app.png)
+
+#### Generated Automation Code
+
+![Generated Code](assets/coderqa-generated-code.png)
+
+#### Workflow
+
+![CoderQA Workflow](assets/coderqa-workflow.png)
 
 ---
 
@@ -111,12 +117,15 @@ Jira Bug / Baseline Approval
 
 ### 📷 Showcase Assets
 
-```text
-assets/ui-regression-report-1.png
-assets/ui-regression-report-2.png
-assets/ui-regression-report-3.png
-assets/ui-workflow.png
-```
+#### Regression Report
+
+![UI Report](assets/ui-regression-report-1.png)
+![UI Report](assets/ui-regression-report-2.png)
+![UI Report](assets/ui-regression-report-3.png)
+
+#### Workflow
+
+![UI Workflow](assets/ui-workflow.png)
 
 ---
 
@@ -168,9 +177,9 @@ Screenshot Upload
 
 ### 📷 Showcase Assets
 
-```text
-assets/automation-bug-flow.png
-```
+#### Workflow
+
+![Bug Workflow](assets/automation-bug-flow.png)
 
 ---
 
