@@ -122,6 +122,8 @@ Jira Bug / Baseline Approval
 ![UI Report](assets/ui-regression-report-1.png)
 ![UI Report](assets/ui-regression-report-2.png)
 ![UI Report](assets/ui-regression-report-3.png)
+![UI Report](assets/ui-regression-report-4.png)
+![UI Report](assets/ui-regression-report-5.png)
 
 #### Workflow
 
