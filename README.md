@@ -1,172 +1,259 @@
-QA AI Agents Showcase
+# QA AI Agents Showcase
 
-AI-powered QA automation agents built around visual testing, intelligent code generation, and automated bug management workflows.
+AI-powered QA automation agents for intelligent code generation, visual regression analysis, and automated bug reporting.
 
-This repository is a portfolio showcase demonstrating the architecture, workflow design, and capabilities of three production-style QA automation agents built using:
+> Portfolio showcase repository only.  
+> Internal implementation details, credentials, URLs, and production workflows are intentionally excluded.
 
-n8n
-OpenAI GPT models
-Playwright
-Electron
-Jira
-TestRail
-HTML/CSS/JavaScript
+---
 
-⚠️ This repository intentionally excludes internal implementations, credentials, private endpoints, and company-sensitive data.
+# 🚀 Agents
 
-Agents Included
-1. CoderQA Agent
+## 1. CoderQA Agent
 
-AI-assisted code generation agent for QA automation engineers.
+AI-assisted automation code generation agent that converts Playwright recordings and DOM hints into structured Playwright Java automation code.
 
-CoderQA converts:
+### ✨ Features
 
-Playwright recorded scripts
-DOM hints
-UI metadata
+- Generates Playwright Java sync API code
+- Creates Page Object methods
+- Creates testcase method calls
+- Uses DOM-aware XPath generation
+- Handles dropdowns, uploads, assertions, and date pickers
+- Preserves recorded execution order
+- Includes Electron desktop application for QA users
 
-into:
+### 🧠 Workflow
 
-Playwright Java Page Objects
-Structured Testcases
-Reusable automation code
+```text
+Playwright Recording + DOM Hints / Metadata
+        ↓
+OpenAI Processing
+        ↓
+Generated Java Page Object + Generated Testcase
+        ↓
+Generated Code in IDE
+```
 
-The agent follows strict enterprise QA coding rules including:
+### 🛠 Tech Stack
 
-XPath generation standards
-Page Object design
-Dropdown/date-picker handling
-Assertion rules
-Anti-hallucination validation
-Upload handling
-Method deduplication
-Features
-Converts Playwright recordings into Java sync API code
-Generates structured Page Objects
-Generates testcase methods in execution order
-Intelligent XPath generation
-DOM-aware locator strategy
-Dropdown/date-picker automation support
-Upload automation handling
-Electron desktop application for QA users
-Tech Stack
-OpenAI GPT
-n8n
-Playwright
-Java
-Electron
-Node.js
-Showcase Assets
+- OpenAI GPT
+- Playwright
+- Java
+- Electron
+- n8n
 
-Add screenshots such as:
+### 📷 Showcase Assets
 
-Electron UI
-Generated code samples
-Workflow diagrams
-Prompt flow architecture
+```text
+assets/coderqa-electron-app.png
+assets/coderqa-generated-code.png
+assets/coderqa-workflow.png
+```
 
+---
 
-2. UI Regression Agent
+## 2. UI Regression Agent
 
-AI-powered visual regression testing and reporting system.
+AI-powered visual regression testing workflow that compares baseline screenshots against new screenshots and generates an interactive review report.
 
-This agent compares:
+### ✨ Features
 
-Baseline screenshots
-Newly captured screenshots
+- Baseline vs new screenshot comparison
+- Missing element detection
+- Layout shift detection
+- Clipping and overflow detection
+- Severity classification
+- Confidence scoring
+- Interactive HTML regression report
+- Jira bug creation workflow
+- Baseline promotion workflow
 
-and detects:
+### 📊 Report Features
 
-Missing UI elements
-Layout shifts
-Visual regressions
-Missing buttons/icons
-Alignment issues
-Floating control issues
-Clipping/overflow problems
+- Side-by-side screenshot comparison
+- Regression findings
+- Confidence distribution
+- Bug summary dashboard
+- Jira bug action buttons
+- Fullscreen image viewer
+- Baseline approval action
 
-The system generates a modern interactive HTML report for reviewers.
+### 🧠 Workflow
 
-Features
-AI-based screenshot comparison
-Regression severity classification
-Confidence scoring
-Interactive HTML report generation
-Jira bug creation integration
-Baseline promotion workflow
-Full-image modal viewer
-Screenshot evidence management
-Report Capabilities
+```text
+Baseline Screenshot + New Screenshot
+        ↓
+AI Visual Analysis
+        ↓
+Regression Findings
+        ↓
+Interactive HTML Report
+        ↓
+Jira Bug / Baseline Approval
+```
 
-The generated report includes:
+### 🛠 Tech Stack
 
-Side-by-side screenshot comparison
-Findings breakdown
-Confidence distribution
-Regression statistics
-Jira bug submission actions
-Baseline approval workflow
-Tech Stack
-OpenAI Vision Models
-n8n
-HTML/CSS/JavaScript
-Jira APIs
-Playwright
-Showcase Assets
+- OpenAI Vision Models
+- Playwright
+- HTML/CSS/JavaScript
+- Jira APIs
+- n8n
 
-Add:
+### 📷 Showcase Assets
 
-Sample report screenshots
-Comparison examples
-Architecture diagrams
-Demo GIF/video
+```text
+assets/ui-regression-report.png
+assets/ui-comparison.png
+assets/ui-workflow.png
+```
 
+---
 
-3. Automation Bug Agent
+## 3. Automation Bug Agent
 
-Automated TestRail-to-Jira bug management workflow.
+Automated workflow that converts failed TestRail executions into Jira bug tickets.
 
-This agent:
+### ✨ Features
 
-Reads failed TestRail executions
-Extracts structured failure details
-Formats bug descriptions
-Creates Jira issues automatically
-Uploads failure screenshots
-Assigns issues into active sprint workflows
-Features
-TestRail integration
-Automated Jira bug creation
-Failure parsing
-Screenshot attachment uploads
-Sprint-aware issue management
-Structured bug descriptions
-Duplicate failure context handling
-Workflow Highlights
+- Reads failed TestRail results
+- Extracts failure details
+- Formats Jira bug descriptions
+- Uploads screenshots automatically
+- Links bugs to active sprint
+- Adds severity metadata
+- Reduces manual QA reporting effort
 
-The automation extracts:
+### 📌 Extracted Information
 
-Failed steps
-Expected vs actual results
-Failure reasons
-URLs
-Historical comments
-Attachments/screenshots
+- Failed step
+- Expected result
+- Actual result
+- Failure reason
+- URL
+- Attachments
+- Historical comments
 
-and converts them into actionable Jira bugs.
+### 🧠 Workflow
 
-Tech Stack
-n8n
-Jira REST APIs
-TestRail APIs
-OpenAI
-JavaScript
-Showcase Assets
+```text
+Failed TestRail Execution
+        ↓
+Failure Parsing
+        ↓
+AI Formatting
+        ↓
+Jira Bug Creation
+        ↓
+Screenshot Upload
+```
 
-Add:
+### 🛠 Tech Stack
 
-Workflow diagrams
-Jira ticket examples
-Failure parsing examples
-Automation flow screenshots
+- TestRail APIs
+- Jira APIs
+- OpenAI
+- JavaScript
+- n8n
 
+### 📷 Showcase Assets
+
+```text
+assets/automation-bug-flow.png
+assets/jira-bug-example.png
+assets/testrail-bug-status.png
+```
+
+---
+
+# 📂 Repository Structure
+
+```text
+qa-ai-agents-showcase/
+│
+├── README.md
+│
+├── agents/
+│   ├── coderqa/
+│   ├── ui-regression-agent/
+│   └── automation-bug-agent/
+│
+├── assets/
+│   ├── coderqa-electron-app.png
+│   ├── ui-regression-report.png
+│   ├── automation-bug-flow.png
+│   └── architecture.png
+│
+└── docs/
+    ├── sample-outputs.md
+    └── security-note.md
+```
+
+---
+
+# 🏗 System Architecture
+
+```text
+Playwright / TestRail / Screenshots
+                ↓
+         n8n Workflow Layer
+                ↓
+          OpenAI Processing
+                ↓
+ ┌─────────────┬─────────────┬
+ ↓             ↓             ↓
+CoderQA     UI Agent     Bug Agent
+ ↓             ↓             ↓
+Code         Report       Jira Bug
+```
+
+---
+
+# ⚙️ Tech Stack
+
+| Area | Tools |
+|---|---|
+| Workflow Automation      | n8n      |
+| AI Models      | OpenAI GPT Models      |
+| Browser Automation      | Playwright      |
+| Desktop Application      | Electron      |
+| Automation Language      | Java      |
+| Bug Tracking      | Jira      |
+| Test Management      | TestRail      |
+| Reporting      | HTML, CSS, JavaScript      |
+
+---
+
+# 🔒 Security Notice
+
+This repository intentionally excludes:
+
+- API keys
+- Credentials
+- Tokens
+- Internal URLs
+- Webhook endpoints
+- Production workflow exports
+- Company-sensitive screenshots
+- Real Jira/TestRail data
+
+All showcased assets should be sanitized before publishing.
+
+---
+
+# 🎯 Purpose
+
+This project demonstrates practical AI applications in QA automation including:
+
+- AI-assisted automation development
+- Intelligent visual regression review
+- Automated bug reporting
+- QA workflow orchestration
+- Enterprise automation tooling
+
+---
+
+# 📄 License
+
+This repository is shared for portfolio and demonstration purposes only.
