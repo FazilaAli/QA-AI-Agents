@@ -1,3 +1,5 @@
+![Banner](assets/banner.png)
+
 # QA AI Agents Showcase
 ![GitHub stars](https://img.shields.io/github/stars/FazilaAli/QA-AI-Agents?style=social)
 
